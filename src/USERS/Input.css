@@ -1,0 +1,15 @@
+input {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+  font-size: 50px;
+}
+.button {
+  transition-duration: 0.4s;
+  font-family: cursive;
+}
+
+.button:hover {
+  background-color: #04aa6d; /* Green */
+  color: white;
+}
