@@ -1,0 +1,13 @@
+/* Task.css */
+
+div {
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  margin: 20px auto; /* Center the div horizontally */
+  border: 2px solid #167cb8; /* Blue border color */
+  border-radius: 10px;
+  background-color: #06495a; /* Light gray background color */
+  box-shadow: 0 4px 8px rgba;
+  width: fit-content;
+}

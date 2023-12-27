@@ -1,21 +1,29 @@
 /* Task.css */
 
-.expense-item {
+.task-item {
+  text-align: center;
   display: flex;
   justify-content: center;
-  font-family: "Courier New", Courier, monospace;
   align-items: center;
-  padding: 10px; /* Adjust the padding as needed */
+  padding: 8px;
   border: 1px solid #ccc;
-  margin-bottom: 8px; /* Adjust the margin as needed */
-  width: 300px;
+  margin-bottom: 8px;
+  width: 500px; /* Adjust the width as needed */
   margin-left: auto;
   margin-right: auto;
 }
 
-.expense-item__description {
+.task-item__description {
   font-weight: bold;
   margin-right: 10px;
 }
 
-/* Add more styles as needed */
+.button {
+  transition-duration: 0.4s;
+  font-family: cursive;
+}
+
+.button:hover {
+  background-color: #04aa6d; /* Green */
+  color: white;
+}
